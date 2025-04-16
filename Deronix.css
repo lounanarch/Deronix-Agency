@@ -1,0 +1,222 @@
+.logo{
+    height: 160px;
+   transform: translateY(-40px);
+    
+ }
+ .Team{
+     height: 400px;
+     width: 100%;
+     transform: translateY(-60px);
+ }
+ 
+  .transform {
+     margin-left: 350px;
+    transform: translateY(-430px);
+    font-size: 35px;
+    color:#f55b5be2;
+    width: 100%;  
+   
+ } 
+ .About{
+      font-size: x-large;
+     transform: translateY(-140px);
+     color:white;
+     
+    
+ }
+ .Whatweoffer {
+     font-size: x-large;
+     color:white ;
+     transform: translateY(-150px);
+ }
+ section {
+     background-color: #f55b5b;
+ }
+ 
+ .Whychooseus {
+     color: white;
+      transform: translateY(-120px);
+     font-size: x-large;
+ }
+ .choose {
+     color: white;
+     transform: translateY(-100px);
+    font-size: large;
+ }
+ 
+ .card-group {
+     color: white;
+     transform: translateY(-140px);
+     gap: 10px;
+ }
+ .card-body {
+     color: #f55b5b;
+     transform: translateY(-10px);
+ }
+ .portfolio {
+     color: white;
+     transform: translateY(-100px);
+     font-size: x-large;
+ }
+ 
+ .image-container {
+     display: grid;
+     grid-auto-flow: column;
+     gap: 10px; 
+     transform: translateY(-80px);
+ }
+ .rickdev1 {
+     height: 400px;
+     width: 400px;
+ }
+ .rickdev2 {
+     height: 400px;
+     width: 400px;
+ }
+ .rickdev3 {
+     height: 400px;
+     width: 400px;
+ }
+ .image-container2 {
+     display: grid;
+     grid-auto-flow: column;
+    gap: 10px;
+    transform: translateY(-60px);
+ }
+ .billway1 {
+     height: 500px;
+     width: 400px;
+ }
+ .gainpay1 {
+     height: 500px;
+     width: 400px;
+ }
+ .gainpay2 {
+     height: 500px;
+     width: 400px;
+ }
+ .btn {
+     color: white;
+     background-color: #f55b5b;
+     transform: translateY(-30px);
+ }
+ .Contact{
+   color: #f55b5b;
+ }
+ .whatsapp {
+   height: 30px;
+   
+ }
+ .follow {
+   color: #f55b5b;
+ }
+ .whatsapp1 {
+   color: #f55b5b;
+ }
+ .map {
+   height: 30px;
+ }
+ .map1 {
+   color: #f55b5b;
+ }
+ .email {
+   height: 30px;
+ }
+ .email2 {
+   color: #f55b5b;
+ }
+ 
+ 
+ 
+ @media (max-width: 768px) {
+     .logo {
+       height: 120px;
+       transform: translateY(-20px);
+     }
+   
+     .Team {
+       height: auto;
+       transform: translateY(-30px);
+     }
+   
+     .transform {
+      margin-left: 10px;
+       transform: translateY(-220px);
+       font-size: 18px;
+       text-align: center;
+     }
+   
+     .About,
+     .Whatweoffer,
+     .Whychooseus,
+     .choose,
+     .portfolio {
+       font-size: 16px;
+       transform: translateY(-60px);
+       text-align: center;
+       padding: 0 10px;
+       color: white;
+     }
+   
+     .card-group {
+       flex-direction: column;
+       transform: translateY(-70px);
+       gap: 20px;
+     }
+   
+     .card-body {
+       transform: translateY(0);
+       font-size: 14px;
+     }
+   
+     .image-container,
+     .image-container2 {
+       display: flex;
+       flex-direction: row;
+       overflow-x: scroll;
+       gap: 10px;
+       transform: translateY(-40px);
+     }
+   
+     .rickdev1,
+     .rickdev2,
+     .rickdev3,
+     .billway1,
+     .gainpay1,
+     .gainpay2 {
+       height: 300px;
+       width: 280px;
+       flex-shrink: 0;
+     }
+   }
+   .whatsapp,
+   .map,
+   .email {
+     height: 24px; 
+   }
+ 
+   .Contact,
+   .follow,
+   .whatsapp1,
+   .map1,
+   .email2 {
+     font-size: 14px; 
+     color: #d94a4a;   
+   }
+ 
+   
+   .Contact,
+   .follow,
+   .map1,
+   .whatsapp1,
+   .email2 {
+     display: block;
+     margin-bottom: 10px;
+   }
+   @media screen and (max-width: 1024px) and (min-width: 768px) {
+     .transform {
+       margin-left: 230px;            
+       transform: translateY(-350px); 
+       font-size: 28px;               
+     }
+   }
